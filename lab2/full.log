@@ -1,0 +1,274 @@
+	(++) from command line, (!!) notice, (II) informational,
+Warning:     [ 67096.034] The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+Warning:     [ 67096.034] The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+Warning:     [ 67096.034] The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+Warning:     [ 67096.034] The directory "/usr/share/fonts/X11/100dpi" does not exist.
+Warning:     [ 67096.034] The directory "/usr/share/fonts/X11/75dpi" does not exist.
+Information: [ 67096.035] The server relies on udev to provide the list of input devices.
+Information: [ 67096.035] Loader magic: 0x55edcf70bdc0
+Information: [ 67096.035] Module ABI versions:
+Information: [ 67096.037] systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+Information: [ 67096.041] xfree86: Adding drm device (/dev/dri/card0)
+Information: [ 67096.043] xfree86: Adding drm device (/dev/dri/card1)
+Information: [ 67096.051] LoadModule: "glx"
+Information: [ 67096.051] Loading /usr/lib/xorg/modules/extensions/libglx.so
+Information: [ 67096.056] Module glx: vendor="X.Org Foundation"
+Information: [ 67096.056] LoadModule: "intel"
+Information: [ 67096.057] Loading /usr/lib/xorg/modules/drivers/intel_drv.so
+Information: [ 67096.058] Module intel: vendor="X.Org Foundation"
+Information: [ 67096.058] LoadModule: "nvidia"
+Warning:     [ 67096.059] Warning, couldn't open module nvidia
+Information: [ 67096.059] UnloadModule: "nvidia"
+Information: [ 67096.059] Unloading nvidia
+Information: [ 67096.059] LoadModule: "nouveau"
+Information: [ 67096.059] Loading /usr/lib/xorg/modules/drivers/nouveau_drv.so
+Information: [ 67096.060] Module nouveau: vendor="X.Org Foundation"
+Information: [ 67096.060] LoadModule: "modesetting"
+Information: [ 67096.060] Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+Information: [ 67096.060] Module modesetting: vendor="X.Org Foundation"
+Information: [ 67096.061] LoadModule: "fbdev"
+Information: [ 67096.061] Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+Information: [ 67096.061] Module fbdev: vendor="X.Org Foundation"
+Information: [ 67096.061] LoadModule: "vesa"
+Information: [ 67096.061] Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+Information: [ 67096.062] Module vesa: vendor="X.Org Foundation"
+Information: [ 67096.062] LoadModule: "intel"
+Information: [ 67096.062] Loading /usr/lib/xorg/modules/drivers/intel_drv.so
+Information: [ 67096.062] Module intel: vendor="X.Org Foundation"
+Information: [ 67096.062] UnloadModule: "intel"
+Information: [ 67096.062] Unloading intel
+Information: [ 67096.062] Failed to load module "intel" (already loaded, 21997)
+Information: [ 67096.062] LoadModule: "nvidia"
+Warning:     [ 67096.063] Warning, couldn't open module nvidia
+Information: [ 67096.063] UnloadModule: "nvidia"
+Information: [ 67096.063] Unloading nvidia
+Information: [ 67096.063] LoadModule: "nouveau"
+Information: [ 67096.063] Loading /usr/lib/xorg/modules/drivers/nouveau_drv.so
+Information: [ 67096.063] Module nouveau: vendor="X.Org Foundation"
+Information: [ 67096.063] UnloadModule: "nouveau"
+Information: [ 67096.063] Unloading nouveau
+Information: [ 67096.063] Failed to load module "nouveau" (already loaded, 0)
+Information: [ 67096.063] LoadModule: "modesetting"
+Information: [ 67096.064] Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+Information: [ 67096.064] Module modesetting: vendor="X.Org Foundation"
+Information: [ 67096.064] UnloadModule: "modesetting"
+Information: [ 67096.064] Unloading modesetting
+Information: [ 67096.064] Failed to load module "modesetting" (already loaded, 0)
+Information: [ 67096.064] LoadModule: "fbdev"
+Information: [ 67096.064] Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+Information: [ 67096.064] Module fbdev: vendor="X.Org Foundation"
+Information: [ 67096.064] UnloadModule: "fbdev"
+Information: [ 67096.064] Unloading fbdev
+Information: [ 67096.064] Failed to load module "fbdev" (already loaded, 0)
+Information: [ 67096.064] LoadModule: "vesa"
+Information: [ 67096.064] Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+Information: [ 67096.064] Module vesa: vendor="X.Org Foundation"
+Information: [ 67096.065] UnloadModule: "vesa"
+Information: [ 67096.065] Unloading vesa
+Information: [ 67096.065] Failed to load module "vesa" (already loaded, 0)
+Information: [ 67096.065] intel: Driver for Intel(R) Integrated Graphics Chipsets:
+Information: [ 67096.065] intel: Driver for Intel(R) HD Graphics: 2000-6000
+Information: [ 67096.065] intel: Driver for Intel(R) Iris(TM) Graphics: 5100, 6100
+Information: [ 67096.065] intel: Driver for Intel(R) Iris(TM) Pro Graphics: 5200, 6200, P6300
+Information: [ 67096.065] NOUVEAU driver Date:   Tue Dec 8 15:52:25 2015 +1000
+Information: [ 67096.065] NOUVEAU driver for NVIDIA chipset families :
+Information: [ 67096.067] modesetting: Driver for Modesetting Kernel Drivers: kms
+Information: [ 67096.067] FBDEV: driver for framebuffer: fbdev
+Information: [ 67096.067] VESA: driver for VESA chipsets: vesa
+Information: [ 67096.067] intel(0): Using Kernel Mode Setting driver: i915, version 1.6.0 20151010
+Information: [ 67096.067] intel(0): SNA compiled: xserver-xorg-video-intel 2:2.99.917+git20160325-1ubuntu1.2 (Timo Aaltonen <tjaalton@debian.org>)
+Information: [ 67096.067] intel(0): SNA compiled for use with valgrind
+Information: [ 67096.068] [drm] nouveau interface version: 1.3.1
+Warning:     [ 67096.068] Falling back to old probe method for modesetting
+Warning:     [ 67096.068] Falling back to old probe method for fbdev
+Information: [ 67096.068] Loading sub module "fbdevhw"
+Information: [ 67096.068] LoadModule: "fbdevhw"
+Information: [ 67096.069] Loading /usr/lib/xorg/modules/libfbdevhw.so
+Information: [ 67096.069] Module fbdevhw: vendor="X.Org Foundation"
+Warning:     [ 67096.069] Falling back to old probe method for vesa
+Information: [ 67096.070] intel(0): Creating default Display subsection in Screen section
+Information: [ 67096.071] intel(0): Output LVDS2 has no monitor section
+Information: [ 67096.089] intel(0): Enabled output LVDS2
+Information: [ 67096.089] intel(0): Output VGA2 has no monitor section
+Information: [ 67096.089] intel(0): Enabled output VGA2
+Information: [ 67096.089] intel(0): Output VIRTUAL1 has no monitor section
+Information: [ 67096.089] intel(0): Enabled output VIRTUAL1
+Information: [ 67096.090] Loading sub module "dri2"
+Information: [ 67096.090] LoadModule: "dri2"
+Information: [ 67096.090] Module "dri2" already built-in
+Information: [ 67096.090] Loading sub module "present"
+Information: [ 67096.090] LoadModule: "present"
+Information: [ 67096.090] Module "present" already built-in
+Information: [ 67096.092] Loading sub module "dri2"
+Information: [ 67096.092] LoadModule: "dri2"
+Information: [ 67096.092] Module "dri2" already built-in
+Information: [ 67096.093] NOUVEAU(G0): Initializing outputs ...
+Information: [ 67096.094] NOUVEAU(G0): Output LVDS-1-1 has no monitor section
+Information: [ 67096.156] NOUVEAU(G0): Output DP-1-1 has no monitor section
+Information: [ 67096.220] NOUVEAU(G0): Output DP-1-2 has no monitor section
+Information: [ 67096.221] NOUVEAU(G0): Output HDMI-1-1 has no monitor section
+Information: [ 67096.231] NOUVEAU(G0): Output VGA-1-1 has no monitor section
+Information: [ 67096.231] NOUVEAU(G0): 5 crtcs needed for screen.
+Information: [ 67096.264] NOUVEAU(G0): Allocated crtc nr. 0 to this screen.
+Information: [ 67096.265] NOUVEAU(G0): Allocated crtc nr. 1 to this screen.
+Information: [ 67096.266] NOUVEAU(G0): EDID for output LVDS-1-1
+Information: [ 67096.328] NOUVEAU(G0): EDID for output DP-1-1
+Information: [ 67096.392] NOUVEAU(G0): EDID for output DP-1-2
+Information: [ 67096.393] NOUVEAU(G0): EDID for output HDMI-1-1
+Information: [ 67096.403] NOUVEAU(G0): EDID for output VGA-1-1
+Information: [ 67096.403] NOUVEAU(G0): Using default gamma of (1.0, 1.0, 1.0) unless otherwise stated.
+Information: [ 67096.404] NOUVEAU(G0): Modeline "1600x900"x59.9  118.25  1600 1696 1856 2112  900 903 908 934 -hsync +vsync (56.0 kHz)
+Information: [ 67096.404] Loading sub module "fb"
+Information: [ 67096.404] LoadModule: "fb"
+Information: [ 67096.404] Loading /usr/lib/xorg/modules/libfb.so
+Information: [ 67096.405] Module fb: vendor="X.Org Foundation"
+Information: [ 67096.405] Loading sub module "shadowfb"
+Information: [ 67096.405] LoadModule: "shadowfb"
+Information: [ 67096.405] Loading /usr/lib/xorg/modules/libshadowfb.so
+Information: [ 67096.405] Module shadowfb: vendor="X.Org Foundation"
+Information: [ 67096.405] UnloadModule: "modesetting"
+Information: [ 67096.405] Unloading modesetting
+Information: [ 67096.405] UnloadModule: "fbdev"
+Information: [ 67096.405] Unloading fbdev
+Information: [ 67096.406] UnloadSubModule: "fbdevhw"
+Information: [ 67096.406] Unloading fbdevhw
+Information: [ 67096.406] UnloadModule: "vesa"
+Information: [ 67096.406] Unloading vesa
+Information: [ 67096.436] NOUVEAU(G0): Channel setup complete.
+Information: [ 67096.463] NOUVEAU(G0): [COPY] async initialised.
+Information: [ 67096.465] NOUVEAU(G0): Hardware support for Present enabled
+Information: [ 67096.465] NOUVEAU(G0): [DRI2] Setup complete
+Information: [ 67096.465] NOUVEAU(G0): [DRI2]   DRI driver: nouveau
+Information: [ 67096.465] NOUVEAU(G0): [DRI2]   VDPAU driver: nouveau
+Information: [ 67096.465] Loading sub module "exa"
+Information: [ 67096.465] LoadModule: "exa"
+Information: [ 67096.465] Loading /usr/lib/xorg/modules/libexa.so
+Information: [ 67096.466] Module exa: vendor="X.Org Foundation"
+Information: [ 67096.466] EXA(256): Driver allocated offscreen pixmaps
+Information: [ 67096.466] EXA(256): Driver registered support for the following operations:
+Information: [ 67096.466]         Solid
+Information: [ 67096.466]         Copy
+Information: [ 67096.466]         Composite (RENDER acceleration)
+Information: [ 67096.466]         UploadToScreen
+Information: [ 67096.466]         DownloadFromScreen
+Information: [ 67096.466] NOUVEAU(G0): [XvMC] Associated with Nouveau GeForce 8/9 Textured Video.
+Information: [ 67096.466] NOUVEAU(G0): RandR 1.2 enabled, ignore the following RandR disabled message.
+Information: [ 67096.467] intel(0): SNA initialized with Ivybridge (gen7, gt2) backend
+Information: [ 67096.468] intel(0): HW Cursor enabled
+Information: [ 67096.468] intel(0): RandR 1.2 enabled, ignore the following RandR disabled message.
+Information: [ 67096.468] intel(0): [DRI2] Setup complete
+Information: [ 67096.468] intel(0): [DRI2]   DRI driver: i965
+Information: [ 67096.468] intel(0): [DRI2]   VDPAU driver: va_gl
+Information: [ 67096.468] intel(0): direct rendering: DRI2 enabled
+Information: [ 67096.468] intel(0): hardware support for Present enabled
+Information: [ 67096.478] SELinux: Disabled on system
+Information: [ 67096.501] AIGLX: enabled GLX_MESA_copy_sub_buffer
+Information: [ 67096.501] AIGLX: enabled GLX_ARB_create_context
+Information: [ 67096.501] AIGLX: enabled GLX_ARB_create_context_profile
+Information: [ 67096.501] AIGLX: enabled GLX_EXT_create_context_es{,2}_profile
+Information: [ 67096.501] AIGLX: enabled GLX_INTEL_swap_event
+Information: [ 67096.501] AIGLX: enabled GLX_SGI_swap_control and GLX_MESA_swap_control
+Information: [ 67096.501] AIGLX: enabled GLX_EXT_framebuffer_sRGB
+Information: [ 67096.501] AIGLX: enabled GLX_ARB_fbconfig_float
+Information: [ 67096.501] AIGLX: enabled GLX_EXT_fbconfig_packed_float
+Information: [ 67096.501] AIGLX: GLX_EXT_texture_from_pixmap backed by buffer objects
+Information: [ 67096.501] AIGLX: enabled GLX_ARB_create_context_robustness
+Information: [ 67096.501] AIGLX: Loaded and initialized i965
+Information: [ 67096.501] GLX: Initialized DRI2 GL provider for screen 0
+Information: [ 67096.503] NOUVEAU(G0): NVEnterVT is called.
+Information: [ 67096.510] intel(0): switch to mode 1600x900@60.0 on LVDS2 using pipe 0, position (0, 0), rotation normal, reflection none
+Information: [ 67096.510] intel(0): Setting screen physical size to 423 x 238
+Information: [ 67096.612] config/udev: Adding input device Power Button (/dev/input/event3)
+Information: [ 67096.612] LoadModule: "evdev"
+Information: [ 67096.612] Loading /usr/lib/xorg/modules/input/evdev_drv.so
+Information: [ 67096.613] Module evdev: vendor="X.Org Foundation"
+Information: [ 67096.613] Using input driver 'evdev' for 'Power Button'
+Information: [ 67096.613] evdev: Power Button: Configuring as keyboard
+Information: [ 67096.613] XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+Information: [ 67096.681] config/udev: Adding input device Video Bus (/dev/input/event6)
+Information: [ 67096.681] Using input driver 'evdev' for 'Video Bus'
+Information: [ 67096.682] evdev: Video Bus: Configuring as keyboard
+Information: [ 67096.682] XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+Information: [ 67096.683] config/udev: Adding input device Video Bus (/dev/input/event5)
+Information: [ 67096.684] Using input driver 'evdev' for 'Video Bus'
+Information: [ 67096.684] evdev: Video Bus: Configuring as keyboard
+Information: [ 67096.684] XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 8)
+Information: [ 67096.685] config/udev: Adding input device Power Button (/dev/input/event1)
+Information: [ 67096.686] Using input driver 'evdev' for 'Power Button'
+Information: [ 67096.686] evdev: Power Button: Configuring as keyboard
+Information: [ 67096.686] XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 9)
+Information: [ 67096.687] config/udev: Adding input device Lid Switch (/dev/input/event0)
+Information: [ 67096.687] No input driver specified, ignoring this device.
+Information: [ 67096.687] This device may have been added with another device file.
+Information: [ 67096.688] config/udev: Adding input device Sleep Button (/dev/input/event2)
+Information: [ 67096.689] Using input driver 'evdev' for 'Sleep Button'
+Information: [ 67096.689] evdev: Sleep Button: Configuring as keyboard
+Information: [ 67096.689] XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 10)
+Information: [ 67096.693] config/udev: Adding input device Laptop_Integrated_Webcam_E4HD (/dev/input/event9)
+Information: [ 67096.693] Using input driver 'evdev' for 'Laptop_Integrated_Webcam_E4HD'
+Information: [ 67096.693] evdev: Laptop_Integrated_Webcam_E4HD: Configuring as keyboard
+Information: [ 67096.693] XINPUT: Adding extended input device "Laptop_Integrated_Webcam_E4HD" (type: KEYBOARD, id 11)
+Information: [ 67096.695] config/udev: Adding input device HDA Intel PCH Dock Mic (/dev/input/event11)
+Information: [ 67096.695] No input driver specified, ignoring this device.
+Information: [ 67096.695] This device may have been added with another device file.
+Information: [ 67096.695] config/udev: Adding input device HDA Intel PCH Headset Mic (/dev/input/event12)
+Information: [ 67096.695] No input driver specified, ignoring this device.
+Information: [ 67096.695] This device may have been added with another device file.
+Information: [ 67096.696] config/udev: Adding input device HDA Intel PCH Dock Line Out (/dev/input/event13)
+Information: [ 67096.696] No input driver specified, ignoring this device.
+Information: [ 67096.696] This device may have been added with another device file.
+Information: [ 67096.697] config/udev: Adding input device HDA Intel PCH Headphone (/dev/input/event14)
+Information: [ 67096.697] No input driver specified, ignoring this device.
+Information: [ 67096.697] This device may have been added with another device file.
+Information: [ 67096.698] config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event4)
+Information: [ 67096.698] Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+Information: [ 67096.699] evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+Information: [ 67096.699] XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 12)
+Information: [ 67096.700] config/udev: Adding input device AlpsPS/2 ALPS DualPoint TouchPad (/dev/input/event8)
+Information: [ 67096.700] LoadModule: "synaptics"
+Information: [ 67096.701] Loading /usr/lib/xorg/modules/input/synaptics_drv.so
+Information: [ 67096.701] Module synaptics: vendor="X.Org Foundation"
+Information: [ 67096.701] Using input driver 'synaptics' for 'AlpsPS/2 ALPS DualPoint TouchPad'
+Information: [ 67096.756] synaptics: AlpsPS/2 ALPS DualPoint TouchPad: ignoring touch events for semi-multitouch device
+Information: [ 67096.756] synaptics: AlpsPS/2 ALPS DualPoint TouchPad: device does not report finger width.
+Information: [ 67096.772] XINPUT: Adding extended input device "AlpsPS/2 ALPS DualPoint TouchPad" (type: TOUCHPAD, id 13)
+Information: [ 67096.774] config/udev: Adding input device AlpsPS/2 ALPS DualPoint TouchPad (/dev/input/mouse1)
+Information: [ 67096.774] config/udev: Adding input device AlpsPS/2 ALPS DualPoint Stick (/dev/input/event7)
+Information: [ 67096.775] Using input driver 'evdev' for 'AlpsPS/2 ALPS DualPoint Stick'
+Information: [ 67096.775] evdev: AlpsPS/2 ALPS DualPoint Stick: Configuring as mouse
+Information: [ 67096.775] XINPUT: Adding extended input device "AlpsPS/2 ALPS DualPoint Stick" (type: MOUSE, id 14)
+Information: [ 67096.775] evdev: AlpsPS/2 ALPS DualPoint Stick: initialized for relative axes.
+Information: [ 67096.777] config/udev: Adding input device AlpsPS/2 ALPS DualPoint Stick (/dev/input/mouse0)
+Information: [ 67096.777] No input driver specified, ignoring this device.
+Information: [ 67096.777] This device may have been added with another device file.
+Information: [ 67096.782] config/udev: Adding input device Dell WMI hotkeys (/dev/input/event10)
+Information: [ 67096.782] Using input driver 'evdev' for 'Dell WMI hotkeys'
+Information: [ 67096.782] evdev: Dell WMI hotkeys: Configuring as keyboard
+Information: [ 67096.782] XINPUT: Adding extended input device "Dell WMI hotkeys" (type: KEYBOARD, id 15)
+Information: [ 67098.090] intel(0): EDID vendor "LGD", prod id 735
+Information: [ 67098.090] intel(0): Printing DDC gathered Modelines:
+Information: [ 67098.090] intel(0): Modeline "1600x900"x0.0   97.12  1600 1648 1696 1774  900 903 907 912 +hsync -vsync (54.7 kHz eP)
+Information: [ 67098.090] intel(0): Modeline "1600x900"x0.0   97.12  1600 1648 1696 2370  900 903 907 1024 +hsync -vsync (41.0 kHz e)
+Information: [ 67103.320] AIGLX: Suspending AIGLX clients for VT switch
+Information: [ 67103.347] NOUVEAU(G0): NVLeaveVT is called.
+Information: [ 67103.818] evdev: Dell WMI hotkeys: Close
+Information: [ 67103.818] UnloadModule: "evdev"
+Information: [ 67103.818] evdev: AlpsPS/2 ALPS DualPoint Stick: Close
+Information: [ 67103.818] UnloadModule: "evdev"
+Information: [ 67103.818] UnloadModule: "synaptics"
+Information: [ 67103.818] evdev: AT Translated Set 2 keyboard: Close
+Information: [ 67103.819] UnloadModule: "evdev"
+Information: [ 67103.819] evdev: Laptop_Integrated_Webcam_E4HD: Close
+Information: [ 67103.819] UnloadModule: "evdev"
+Information: [ 67103.819] evdev: Sleep Button: Close
+Information: [ 67103.819] UnloadModule: "evdev"
+Information: [ 67103.819] evdev: Power Button: Close
+Information: [ 67103.819] UnloadModule: "evdev"
+Information: [ 67103.819] evdev: Video Bus: Close
+Information: [ 67103.819] UnloadModule: "evdev"
+Information: [ 67103.819] evdev: Video Bus: Close
+Information: [ 67103.819] UnloadModule: "evdev"
+Information: [ 67103.819] evdev: Power Button: Close
+Information: [ 67103.819] UnloadModule: "evdev"
+Information: [ 67103.853] NOUVEAU(G0): NVLeaveVT is called.
+Information: [ 67103.888] Server terminated successfully (0). Closing log file.

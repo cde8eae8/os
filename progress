@@ -1,0 +1,52 @@
+@ - passed
+a - code style checked
+x - logical checked
+c - to check
+
+lab1
+	task1 [@]
+	task2 [@]
+	task3 [@]
+	task4 [@]
+	task5 [@]
+	task6 [@]
+	task7 [@]
+lab2
+	task1 [ ]
+	task2 [x]
+	task3 [x]
+	task4 [x]
+	task5 [x]
+	task6 [x]
+	task7 [x]
+lab3
+	task1 [x]
+	task2 [x]
+	task3 [x]
+	task4 [x]
+	task5 [x]
+	task6 [x]
+lab4
+	task1 [ ]
+	task2 [ ]
+	task3 [ ]
+	task4 [ ]
+	task5 [ ]
+	task6 [ ]
+	task7 [ ]
+lab5
+	task1 [ ]
+	task2 [ ]
+	task3 [ ]
+	task4 [ ]
+	task5 [ ]
+	task6 [ ]
+	task7 [ ]
+lab6
+	task1 [ ]
+	task2 [ ]
+	task3 [ ]
+	task4 [ ]
+	task5 [ ]
+	task6 [ ]
+	task7 [ ]

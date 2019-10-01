@@ -1,0 +1,166 @@
+1:/sbin/init splash 
+2:[kthreadd] 
+3:[kworker/0:0] 
+4:[kworker/0:0H] 
+5:[kworker/u8:0] 
+6:[mm_percpu_wq] 
+7:[ksoftirqd/0] 
+8:[rcu_sched] 
+9:[rcu_bh] 
+10:[migration/0] 
+11:[watchdog/0] 
+12:[cpuhp/0] 
+13:[cpuhp/1] 
+14:[watchdog/1] 
+15:[migration/1] 
+16:[ksoftirqd/1] 
+18:[kworker/1:0H] 
+19:[cpuhp/2] 
+20:[watchdog/2] 
+21:[migration/2] 
+22:[ksoftirqd/2] 
+24:[kworker/2:0H] 
+25:[cpuhp/3] 
+26:[watchdog/3] 
+27:[migration/3] 
+28:[ksoftirqd/3] 
+30:[kworker/3:0H] 
+31:[kdevtmpfs] 
+32:[netns] 
+33:[rcu_tasks_kthre] 
+34:[kauditd] 
+38:[khungtaskd] 
+39:[oom_reaper] 
+40:[writeback] 
+41:[kcompactd0] 
+42:[ksmd] 
+43:[khugepaged] 
+44:[crypto] 
+45:[kintegrityd] 
+46:[kblockd] 
+48:[ata_sff] 
+49:[md] 
+50:[edac-poller] 
+51:[devfreq_wq] 
+52:[watchdogd] 
+56:[kswapd0] 
+57:[kworker/u9:0] 
+58:[ecryptfs-kthrea] 
+100:[kthrotld] 
+101:[acpi_thermal_pm] 
+107:[ipv6_addrconf] 
+116:[kstrp] 
+133:[charger_manager] 
+188:[irq/17-mmc0] 
+190:[kworker/2:3] 
+191:[scsi_eh_0] 
+192:[scsi_tmf_0] 
+193:[scsi_eh_1] 
+194:[scsi_tmf_1] 
+195:[scsi_eh_2] 
+196:[scsi_tmf_2] 
+197:[scsi_eh_3] 
+198:[scsi_tmf_3] 
+199:[scsi_eh_4] 
+200:[scsi_tmf_4] 
+201:[scsi_eh_5] 
+202:[scsi_tmf_5] 
+204:[kworker/u8:5] 
+206:[e1000e] 
+213:[kworker/3:1H] 
+241:[jbd2/sda2-8] 
+242:[ext4-rsv-conver] 
+274:[kworker/2:1H] 
+284:/lib/systemd/systemd-journald 
+306:/lib/systemd/systemd-udevd 
+334:[kworker/0:1H] 
+335:[kworker/1:1H] 
+354:[irq/23-smo8800] 
+361:[irq/29-mei_me] 
+400:[cfg80211] 
+415:[irq/30-iwlwifi] 
+457:[i915/signal:0] 
+461:[i915/signal:1] 
+465:[i915/signal:2] 
+514:[kworker/u9:1] 
+542:[loop0] 
+565:[loop1] 
+566:[loop2] 
+576:[loop3] 
+591:[loop4] 
+599:[loop5] 
+601:[loop6] 
+615:[loop7] 
+626:[loop8] 
+650:[loop9] 
+658:[loop10] 
+685:[loop11] 
+708:[loop12] 
+709:[loop13] 
+736:[loop14] 
+738:[loop15] 
+739:[loop16] 
+756:[loop17] 
+767:[loop18] 
+791:[loop19] 
+798:[nvkm-disp] 
+815:[loop20] 
+826:[loop21] 
+848:[loop22] 
+857:[loop23] 
+865:[loop24] 
+896:[ttm_swap] 
+899:[loop25] 
+900:[loop26] 
+901:[loop27] 
+902:[loop28] 
+903:[loop29] 
+904:[loop30] 
+958:/usr/sbin/ModemManager --filter-policy=strict 
+960:/usr/sbin/thermald --no-daemon --dbus-enable 
+965:/usr/sbin/cupsd -l 
+974:/usr/sbin/acpid 
+978:/usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers 
+980:/lib/systemd/systemd-logind 
+982:/usr/lib/bluetooth/bluetoothd 
+983:/usr/sbin/smartd -n 
+1018:/sbin/wpa_supplicant -u -s -O /run/wpa_supplicant 
+1019:/usr/sbin/NetworkManager --no-daemon 
+1023:/usr/sbin/irqbalance --foreground 
+1025:/usr/lib/accountsservice/accounts-daemon 
+1050:/usr/lib/udisks2/udisksd 
+1055:/usr/sbin/cron -f 
+1061:/usr/lib/snapd/snapd 
+1105:/usr/lib/policykit-1/polkitd --no-debug 
+1106:/usr/sbin/cups-browsed 
+1125:[iprt-VBoxWQueue] 
+1128:[iprt-VBoxTscThr] 
+1206:/snap/anbox/158/usr/bin/anbox container-manager --data-path=/var/snap/anbox/common/ --android-image=/snap/anbox/158/android.img --daemon 
+1208:/usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal 
+1228:/usr/sbin/gdm3 
+1233:nginx: master process /usr/sbin/nginx -g daemon on; master_process on; 
+1235:gdm-session-worker [pam/gdm-launch-environment] 
+1336:/usr/lib/upower/upowerd 
+1499:[loop31] 
+1548:/usr/lib/x86_64-linux-gnu/boltd 
+1549:/usr/lib/packagekit/packagekitd 
+1671:/opt/logmein-hamachi/bin/hamachid 
+1684:/opt/teamviewer/tv_bin/teamviewerd -d 
+1699:/usr/bin/perl -wT /usr/sbin/munin-node 
+1960:gdm-session-worker [pam/gdm-password] 
+2202:/sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /run/dhclient-wlp3s0.pid -lf /var/lib/NetworkManager/dhclient-0061ecca-f7eb-4947-84b0-2e63c90da06d-wlp3s0.lease -cf /var/lib/NetworkManager/dhclient-wlp3s0.conf wlp3s0 
+2303:[krfcommd] 
+3437:/usr/lib/fwupd/fwupd 
+5640:[kworker/3:0] 
+6222:[kworker/0:1] 
+6228:[kworker/u8:3] 
+6240:[kworker/1:1] 
+6260:[kworker/2:0] 
+6758:[kworker/3:1] 
+6803:[kworker/u8:1] 
+7367:[kworker/1:2] 
+7934:[kworker/2:1] 
+7984:[kworker/u8:2] 
+8005:[kworker/1:0] 
+8006:[kworker/1:3] 
+8007:[kworker/0:2] 

@@ -1,0 +1,28 @@
+find -name -type -readable ...
+cut -fN -dCHAR
+sort
+uniq
+uniq -c
+grep -E/-P
+sed -e 's/.../.../g'
+tr --delete
+tr -s
+sort -kN -tCHAR
+paste
+-------------
+	Processes
+------------
+ps
+pstree
+top
+/proc
+	cmdline
+	cwd
+	environ
+	exe
+	fd
+	maps
+	stat
+	status
+	statm
+
